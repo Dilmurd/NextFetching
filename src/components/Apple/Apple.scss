@@ -1,0 +1,38 @@
+.apple{
+    margin-top: 73px;
+    .apple__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        .apple__card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 40px;
+            background-color: #F6F6F6;
+            border-radius: 22px;
+            margin-bottom: 20px;
+            img{
+                width: 300px;
+                object-fit: contain;
+            }
+            .apple__titles{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+                .apple__title{
+                    font-size: 25px;
+                    font-weight: 800;
+                    margin-bottom: 9px;
+                }
+                .apple__desc{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #8B8E99;
+
+                }
+            }
+        }
+    }
+}

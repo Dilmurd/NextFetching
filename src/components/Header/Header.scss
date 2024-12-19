@@ -1,0 +1,35 @@
+header{
+    background-color: #0B0B0B;
+    .navbar{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    .navbar__logo{
+        h1{
+            color: #fff;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+    .navbar__collection{
+        display: flex;
+        gap: 27px;
+        color: #8B8E99;
+        font-size: 16px;
+        font-weight: 600;
+        .navbar__item{
+            transition: .5s;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+    .navbar__icons{
+        color: #fff;
+        display: flex;
+        gap: 15px;
+        font-size: 17px;
+    }
+}
+}
